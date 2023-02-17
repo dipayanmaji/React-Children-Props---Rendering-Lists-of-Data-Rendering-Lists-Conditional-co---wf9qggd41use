@@ -1,11 +1,9 @@
 import React from 'react'
 
-const ChildComponent = (props) => {
+const ChildComponent = ({setSquare}) => {
   //code here
-  let setSquare = props.setSquare;
   const findSquare = (event)=>{
   let value = event.target.value;
-  // console.log(value);
   setSquare(value*value);
 }
   return (

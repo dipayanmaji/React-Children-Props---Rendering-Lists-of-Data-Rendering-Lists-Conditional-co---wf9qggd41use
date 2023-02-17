@@ -7,9 +7,7 @@ const App = () => {
 
   return (
     <div id="main">
-      <ChildComponent setSquare={setSquare} /> 
-        {/* <input id='input' onChange={findSquare} /> */}
-    
+      <ChildComponent setSquare={setSquare} />     
       <p id='output'>{square}</p>
     </div>
   )
