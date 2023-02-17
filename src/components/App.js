@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div id="main">
       <ChildComponent /> 
-        <input type={"number"} id='input' onChange={findSquare} />
+        <input id='input' onChange={findSquare} />
     
       <p id='output'>{square}</p>
     </div>
